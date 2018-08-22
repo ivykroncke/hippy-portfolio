@@ -1,8 +1,10 @@
 body {
 	font: black;
 	font-size: 14px;
-	background: #F3EBE9;
+	background-image: url("images/orchids.jpg");
 	font-family: "Times New Roman";
+	width: 700px;
+	margin: auto;
 }
 
 h1 {
@@ -10,13 +12,41 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	background: coral;
+	padding-left:10px;
+	padding-top: 10px;
 }
 
 h2 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-family: cursive, Helvetica, sans-serif;
+	background: coral;
+	padding: 10px;
+
 }
 
+p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
-/* 
+.orchid {
+	text-align:center;
+	margin: auto;
+	width: 700px;
+}
+
+.grid {
+	text-align: center;
+	margin: 6px;
+	width: 200px;
+	border: gray 5px solid;
+	width: 150px;
+}
+
+.footer {
+	background: coral;
+	padding: 10px;
+	text-align: right;
+}
